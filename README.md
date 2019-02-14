@@ -31,14 +31,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+The DOM, or Document Object Model, is an application programming interface, that converts an HTML document into a tree structure, where there are various nodes to represent each part of the document.  The DOM is an API that links code to browsers.  It is mutable and may be manipulated in many ways to provide an enhanced browsing  experience, however, manipulating the DOM does not mutate the original HTML code.
 
 2. What is an event?
+An event is an action that happens when programming, where you can set up a trigger or initiation point, as well as a function or action to follow.  For example, you can place an event listener to respond on the mouse click of a particular button which would then trigger an event handler, an action or function, to be executed.
 
 3. What is an event listener?
+An event listener works with event handlers to successfully carry out events in programming.  Specifically, event listeners are used to set and detect when and how an event handler should be executed.  Common event listeners consist of keystroke activities or mouse activities, however there are so many available for a variety of situations.
 
 4. Why would we convert a NodeList into an Array?
+A NodeList is similar to an Array, but not quite backed with all the properties and methods that Arrays offer.  A NodeList has a length property, as well as five methods available.  In some instances, you may want to have more methods or properties available to manipulate the DOM content retrieved through a NodeList.  In this instance, you could convert the NodeList to an Array using Array.from(), and then have access to all the methods and properties available to Array's.
 
 5. What is a component?
+A component, simply put, is a reusable and often dynamic piece of code.
 
 ### Git Set up
 
